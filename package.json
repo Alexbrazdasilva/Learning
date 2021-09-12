@@ -1,0 +1,34 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "My experience using the superset TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "learning-ts"
+  },
+  "keywords": [
+    "learning",
+    "ts",
+    "javascript-superset"
+  ],
+  "author": "Alex Braz",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "dependencies": {
+    "git-commit-msg-linter": "^3.2.8",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "git-cz": "^4.7.6"
+  }
+}
